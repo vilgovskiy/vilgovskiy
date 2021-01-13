@@ -1,0 +1,5 @@
+.ContentContainer {
+    width: calc(100% - 300px);
+    float: right;
+    box-sizing: border-box;
+}
