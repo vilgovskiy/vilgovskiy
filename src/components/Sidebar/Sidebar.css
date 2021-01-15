@@ -6,10 +6,10 @@
     left: 0;
     padding: 20px 10px;
     box-sizing: border-box;
-    background: rgb(52,58,64);
-    background: linear-gradient(270deg, rgba(52,58,64,1) 0%, rgba(223,253,221,1) 2%, rgba(223,253,221,1) 100%);
+    background: whitesmoke;
     align-content: center;
     color:  #343a40;
+    z-index: 10;
 }
 
 @media (max-width: 500px) {

@@ -1,31 +1,39 @@
-import './App.css';
-import { useRef } from 'react';
-import Layout from './components/Layout/Layout';
+import "./App.css";
+import Layout from "./components/Layout/Layout";
 import About from "./components/Content/About/About";
-import FadeInWrapper from './components/UI/FadeInWrapper/FadeInWrapper';
+import FadeInWrapper from "./components/UI/FadeInWrapper/FadeInWrapper";
+import Introduction from "./components/Introduction/Introduction";
+import Content from "./components/Content/Content";
+import Other from "./components/Content/Other/Other";
 
 function App() {
-  const ref1 = useRef(null);
-  const ref2 = useRef(null);
-  const ref3 = useRef(null);
+  // const ref1 = useRef(null);
+  // const ref2 = useRef(null);
+  // const ref3 = useRef(null);
 
-  let scrollToIntroduction = () => {
-    ref1.current.scrollIntoView();
-  }
+  // let scrollToIntroduction = (e) => {
+  //   ref1.current.scrollIntoView({behaviour: "smooth"});
+  // };
 
-  let scrollToAbout = () => {
-    ref2.current.scrollIntoView();
-  }
+  // let scrollToAbout = (e) => {
+  //   ref2.current.scrollIntoView({behaviour: "smooth"});
+  // };
 
-  let scrollToOther = () => {
-    ref3.current.scrollIntoView();
-  }
+  // let scrollToOther = (e) => {
+  //   ref3.current.scrollIntoView({behaviour: "smooth"});
+  // };
   return (
     <div className="App">
-      <Layout refs={[scrollToIntroduction, scrollToAbout, scrollToOther]}> 
-        <FadeInWrapper><About ref={ref1}/></FadeInWrapper>
-        <FadeInWrapper><About ref={ref2}/></FadeInWrapper>
-        <FadeInWrapper><About ref={ref3}/></FadeInWrapper>
+      <Layout>
+        <Introduction />
+        <Content>
+          <FadeInWrapper>
+            <About />
+          </FadeInWrapper>
+          <FadeInWrapper>
+            <Other />
+          </FadeInWrapper>
+        </Content>
       </Layout>
     </div>
   );

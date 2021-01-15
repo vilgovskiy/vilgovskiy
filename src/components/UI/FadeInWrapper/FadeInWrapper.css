@@ -1,6 +1,6 @@
 .fade-in {
     opacity: 0;
-    transform: translateX(10vh);
+    transform: translatey(30px);
     visibility: hidden;
     transition: opacity 0.6s ease-out, transform 1.2s ease-out;
     will-change: opacity, visibility;

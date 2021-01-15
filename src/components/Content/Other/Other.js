@@ -2,9 +2,9 @@ import React from "react";
 
 import "../Content.css";
 
-const About = React.forwardRef((props, ref) => {
+const Other = React.forwardRef((props, ref) => {
   return (
-      <div id="about" ref={ref}>
+      <div id="other" ref={ref}>
         {/* A larger picture */}
         {/* H3 Hello, My name is Vlad */}
         {/* Paragraph about me */}
@@ -60,4 +60,4 @@ const About = React.forwardRef((props, ref) => {
   );
 });
 
-export default About;
+export default Other;

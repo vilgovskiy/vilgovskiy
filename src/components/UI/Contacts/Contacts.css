@@ -22,6 +22,12 @@ a {
     text-decoration: none;
     display: inline;
     color: inherit;
+    transition: color 0.3s;
+}
+
+a:hover,a:focus {
+    color: #0a66c2;
+    text-decoration: solid white 2px;
 }
 
 @media (max-width: 500px) {
