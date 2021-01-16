@@ -1,0 +1,27 @@
+.About {
+    position: relative;
+    display: flexbox;
+}
+
+.About div {
+    display: table;
+    width: 100%;
+    text-align: right;
+}
+
+.About::before, .About::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+
+.About img {
+    margin-left: 10px;
+    border-radius: 10px;
+    height: 50%;
+    width: 30%;
+    display: inline;
+    float: right;
+    vertical-align: top;
+}
