@@ -4,7 +4,7 @@ import "../Content.css";
 
 const Other = React.forwardRef((props, ref) => {
   return (
-      <div id="other" ref={ref}>
+      <section id="other" ref={ref}>
         {/* A larger picture */}
         {/* H3 Hello, My name is Vlad */}
         {/* Paragraph about me */}
@@ -56,7 +56,7 @@ const Other = React.forwardRef((props, ref) => {
           convallis lacus, sed consectetur orci. Nulla pellentesque facilisis
           porttitor.
         </p>
-      </div>
+      </section>
   );
 });
 
