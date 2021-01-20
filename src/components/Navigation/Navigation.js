@@ -19,6 +19,9 @@ const Navigation = (props) => {
       <a href="#about">
         About
       </a>
+      <a href="#techstack">
+        Tech Stack
+      </a>
       <a href="#other">
         Other
       </a>
