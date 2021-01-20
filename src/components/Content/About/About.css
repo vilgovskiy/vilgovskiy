@@ -6,21 +6,18 @@
 .About div {
     display: table;
     width: 100%;
-    text-align: right;
+    text-align: left;
 }
 
-.About::before, .About::after{
-    clear: both;
-    content: "";
-    display: table;
+.About p {
+    width: 75%;
 }
-
 
 .About img {
     margin-left: 10px;
     border-radius: 10px;
     height: 50%;
-    width: 30%;
+    width: 25%;
     display: inline;
     float: right;
     vertical-align: top;
