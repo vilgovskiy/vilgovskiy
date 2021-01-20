@@ -12,17 +12,20 @@ const Navigation = (props) => {
       <a
         href="#introduction"
         ref={focusRef}
-        
+        onClick={props.onClick}
       >
         Introduction
       </a>
-      <a href="#about">
+      <a href="#about"
+        onClick={props.onClick}>
         About
       </a>
-      <a href="#techstack">
+      <a href="#techstack"
+        onClick={props.onClick}>
         Tech Stack
       </a>
-      <a href="#other">
+      <a href="#other"
+        onClick={props.onClick}>
         Other
       </a>
     </nav>

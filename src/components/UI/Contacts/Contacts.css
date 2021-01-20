@@ -1,9 +1,9 @@
 .Contacts {
-    width: 100%;
+    width: 90%;
     height: 20vh;
     display: block;
     align-items: center;
-    margin-left: 10%;
+    margin-left: 5%;
     font-family: 'Roboto Slab', serif;
     font-size:17px;
 }

@@ -1,0 +1,22 @@
+.Toggler {
+    height: 20px;
+    width: 20px;
+    background-color: lightslategray;
+    color: #343a40;
+    border-radius: 50%;
+    transition: transform 0.3s ease-out;
+    z-index: 10;
+    position: fixed;
+    top: 10px;
+    left: 5px;
+}
+
+.Active {
+    transform: translateX(305px);
+}
+
+@media (min-width: 500px) {
+    .Toggler {
+        visibility: hidden;
+    }
+}
