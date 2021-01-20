@@ -1,0 +1,30 @@
+.TechStack {
+  text-align: left;
+  font-size: 23px;
+}
+
+.StackSection p {
+    font-size: 20px;
+}
+
+.StackSection ul {
+    display: block;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: rgb(0, 255, 255);
+    padding-left: 10px;
+}
+
+.StackSection li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: fit-content;
+    font-size: 20px;
+}
+
+.StackSection svg {
+    margin-right: 5px;
+}

@@ -5,6 +5,7 @@ import FadeInWrapper from "./components/UI/FadeInWrapper/FadeInWrapper";
 import Introduction from "./components/Introduction/Introduction";
 import Content from "./components/Content/Content";
 import Other from "./components/Content/Other/Other";
+import TechStack from "./components/Content/TechStack/TechStack";
 
 function App() {
   // const ref1 = useRef(null);
@@ -29,6 +30,9 @@ function App() {
         <Content>
           <FadeInWrapper>
             <About />
+          </FadeInWrapper>
+          <FadeInWrapper>
+            <TechStack />
           </FadeInWrapper>
           <FadeInWrapper>
             <Other />
