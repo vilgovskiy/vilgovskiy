@@ -1,33 +1,73 @@
-import React, { useEffect, useRef } from "react";
-
+import React, { useCallback, useEffect, useState } from "react";
+import NavigationItem from "./NavifationItem/NavigationItem";
 import "./Navigation.css";
 
+const contentItems = { introduction: null, about: null, techstack: null };
+
 const Navigation = (props) => {
-  const focusRef = useRef(null);
+  const [activeItem, setActiveItem] = useState("TOP");
+
+
+  const handleScroll = useCallback(() => {
+    const curPos = window.scrollY + 100;
+    let activePart = null;
+
+    for (const item in contentItems) {
+      activePart = contentItems[item] <= curPos ? item : activePart;
+      // If this condition is true, means looking too far down
+      if (item !== activePart) {
+        break;
+      }
+    }
+    if (activePart !== activeItem) {
+      setActiveItem(activePart);
+    }
+  },[activeItem]);
+
+  // Find positions to use in active scroll detection
+  const getContentItems = useCallback(() => {
+    const curScroll = window.scrollY ;
+
+    // Find top positions of every element we want to attach anchors to
+    for (const item in contentItems) {
+      contentItems[item] =
+        document.getElementById(item).getBoundingClientRect().top + curScroll;
+    }
+    handleScroll();
+  },[handleScroll]);
+
+
   useEffect(() => {
-    focusRef.current.focus();
-  }, []);
+    getContentItems();
+    window.addEventListener("scroll", handleScroll);
+  }, [getContentItems, handleScroll]);
+
   return (
     <nav className="Navigation">
-      <a
-        href="#introduction"
-        ref={focusRef}
+      <NavigationItem
+        name="introduction"
         onClick={props.onClick}
+        activeElem={activeItem}
+        position={contentItems['introduction']}
       >
         Introduction
-      </a>
-      <a href="#about"
-        onClick={props.onClick}>
+      </NavigationItem>
+      <NavigationItem
+        name="about"
+        onClick={props.onClick}
+        activeElem={activeItem}
+        position={contentItems['about']}
+      >
         About
-      </a>
-      <a href="#techstack"
-        onClick={props.onClick}>
+      </NavigationItem>
+      <NavigationItem
+        name="techstack"
+        onClick={props.onClick}
+        activeElem={activeItem}
+        position={contentItems['techstack']}
+      >
         Tech Stack
-      </a>
-      <a href="#other"
-        onClick={props.onClick}>
-        Other
-      </a>
+      </NavigationItem>
     </nav>
   );
 };
