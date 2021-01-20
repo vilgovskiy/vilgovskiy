@@ -8,21 +8,6 @@ import Other from "./components/Content/Other/Other";
 import TechStack from "./components/Content/TechStack/TechStack";
 
 function App() {
-  // const ref1 = useRef(null);
-  // const ref2 = useRef(null);
-  // const ref3 = useRef(null);
-
-  // let scrollToIntroduction = (e) => {
-  //   ref1.current.scrollIntoView({behaviour: "smooth"});
-  // };
-
-  // let scrollToAbout = (e) => {
-  //   ref2.current.scrollIntoView({behaviour: "smooth"});
-  // };
-
-  // let scrollToOther = (e) => {
-  //   ref3.current.scrollIntoView({behaviour: "smooth"});
-  // };
   return (
     <div className="App">
       <Layout>

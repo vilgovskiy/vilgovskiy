@@ -15,16 +15,6 @@ const sidebar = (props) => {
       <Contacts />
       <Navigation refs={props.refs}/>
       <Footer />
-      
-      {/* Picture
-      Name
-      email
-      phone????
-      linked in
-      
-      links:
-      about
-      etc*/}
   </div>;
 };
 
