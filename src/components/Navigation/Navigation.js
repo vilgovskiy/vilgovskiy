@@ -2,14 +2,14 @@ import React, { useCallback, useEffect, useState } from "react";
 import NavigationItem from "./NavifationItem/NavigationItem";
 import "./Navigation.css";
 
-const contentItems = { introduction: null, about: null, techstack: null };
+const contentItems = { introduction: null, about: null, techstack: null, timeline: null };
 
 const Navigation = (props) => {
   const [activeItem, setActiveItem] = useState("TOP");
 
 
   const handleScroll = useCallback(() => {
-    const curPos = window.scrollY + 100;
+    const curPos = window.scrollY + 200;
     let activePart = null;
 
     for (const item in contentItems) {
@@ -67,6 +67,14 @@ const Navigation = (props) => {
         position={contentItems['techstack']}
       >
         Tech Stack
+      </NavigationItem>
+      <NavigationItem
+        name="timeline"
+        onClick={props.onClick}
+        activeElem={activeItem}
+        position={contentItems['timeline']}
+      >
+        Timeline
       </NavigationItem>
     </nav>
   );

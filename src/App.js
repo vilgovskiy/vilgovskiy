@@ -4,8 +4,8 @@ import About from "./components/Content/About/About";
 import FadeInWrapper from "./components/UI/FadeInWrapper/FadeInWrapper";
 import Introduction from "./components/Introduction/Introduction";
 import Content from "./components/Content/Content";
-import Other from "./components/Content/Other/Other";
 import TechStack from "./components/Content/TechStack/TechStack";
+import Timeline from "./components/Content/Timeline/Timeline";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
             <TechStack />
           </FadeInWrapper>
           <FadeInWrapper>
-            <Other />
+            <Timeline/>
           </FadeInWrapper>
         </Content>
       </Layout>
