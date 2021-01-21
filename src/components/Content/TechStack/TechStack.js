@@ -25,7 +25,7 @@ import {
   SiGit,
   SiApachemaven,
   SiJira,
-  SiVisualstudiocode
+  SiVisualstudiocode,
 } from "react-icons/si";
 
 import "./TechStack.css";
@@ -59,7 +59,7 @@ const TechStack = () => {
           </li>
           <li>
             <SiPostgresql />
-            SQL
+            SQL <span style={{fontSize:"10px"}}>(PostgreSQL, SQL Server)</span>
           </li>
           <li>
             <SiHtml5 />
@@ -98,20 +98,62 @@ const TechStack = () => {
       <div className="StackSection">
         <p>Tools and Platforms:</p>
         <ul>
-          <li><SiKubernetes/>Kubernetes</li>
-          <li><SiHelm/>Helm</li>
-          <li><SiDocker/>Docker</li>
-          <li><SiRedhatopenshift/>OpenShift</li>
-          <li><SiAmazonaws/>AWS</li>
-          <li><SiGooglecloud/>GCP</li>
-          <li><SiMicrosoftazure/>Azure</li>
-          <li><SiJenkins/>Jenkins</li>
-          <li><SiHarbor/>Harbor</li>
-          <li><SiPrometheus/>Prometheus</li>
-          <li><SiGit/>git</li>
-          <li><SiApachemaven/>Maven</li>
-          <li><SiJira/>Jira</li>
-          <li><SiVisualstudiocode/>VSCode</li>
+          <li>
+            <SiKubernetes />
+            Kubernetes
+          </li>
+          <li>
+            <SiHelm />
+            Helm
+          </li>
+          <li>
+            <SiDocker />
+            Docker
+          </li>
+          <li>
+            <SiRedhatopenshift />
+            OpenShift
+          </li>
+          <li>
+            <SiAmazonaws />
+            AWS
+          </li>
+          <li>
+            <SiGooglecloud />
+            GCP
+          </li>
+          <li>
+            <SiMicrosoftazure />
+            Azure
+          </li>
+          <li>
+            <SiJenkins />
+            Jenkins
+          </li>
+          <li>
+            <SiHarbor />
+            Harbor
+          </li>
+          <li>
+            <SiPrometheus />
+            Prometheus
+          </li>
+          <li>
+            <SiGit />
+            git
+          </li>
+          <li>
+            <SiApachemaven />
+            Maven
+          </li>
+          <li>
+            <SiJira />
+            Jira
+          </li>
+          <li>
+            <SiVisualstudiocode />
+            VSCode
+          </li>
         </ul>
       </div>
     </section>
