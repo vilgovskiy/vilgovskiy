@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.cc701f2e.chunk.css",
-    "main.js": "/static/js/main.929b27ec.chunk.js",
-    "main.js.map": "/static/js/main.929b27ec.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.84be9532.js",
-    "runtime-main.js.map": "/static/js/runtime-main.84be9532.js.map",
-    "static/js/2.f041dbd1.chunk.js": "/static/js/2.f041dbd1.chunk.js",
-    "static/js/2.f041dbd1.chunk.js.map": "/static/js/2.f041dbd1.chunk.js.map",
-    "static/js/3.1fed9a3e.chunk.js": "/static/js/3.1fed9a3e.chunk.js",
-    "static/js/3.1fed9a3e.chunk.js.map": "/static/js/3.1fed9a3e.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.cc701f2e.chunk.css.map": "/static/css/main.cc701f2e.chunk.css.map",
-    "static/js/2.f041dbd1.chunk.js.LICENSE.txt": "/static/js/2.f041dbd1.chunk.js.LICENSE.txt",
-    "static/media/about.656dcb96.jpg": "/static/media/about.656dcb96.jpg",
-    "static/media/index.css": "/static/media/bg.7b54e238.jpg",
-    "static/media/square.67ee1c40.jpg": "/static/media/square.67ee1c40.jpg"
+    "main.css": "/vilgovskiy.github.io/static/css/main.13e33d87.chunk.css",
+    "main.js": "/vilgovskiy.github.io/static/js/main.929b27ec.chunk.js",
+    "main.js.map": "/vilgovskiy.github.io/static/js/main.929b27ec.chunk.js.map",
+    "runtime-main.js": "/vilgovskiy.github.io/static/js/runtime-main.807ff922.js",
+    "runtime-main.js.map": "/vilgovskiy.github.io/static/js/runtime-main.807ff922.js.map",
+    "static/js/2.f041dbd1.chunk.js": "/vilgovskiy.github.io/static/js/2.f041dbd1.chunk.js",
+    "static/js/2.f041dbd1.chunk.js.map": "/vilgovskiy.github.io/static/js/2.f041dbd1.chunk.js.map",
+    "static/js/3.1fed9a3e.chunk.js": "/vilgovskiy.github.io/static/js/3.1fed9a3e.chunk.js",
+    "static/js/3.1fed9a3e.chunk.js.map": "/vilgovskiy.github.io/static/js/3.1fed9a3e.chunk.js.map",
+    "index.html": "/vilgovskiy.github.io/index.html",
+    "static/css/main.13e33d87.chunk.css.map": "/vilgovskiy.github.io/static/css/main.13e33d87.chunk.css.map",
+    "static/js/2.f041dbd1.chunk.js.LICENSE.txt": "/vilgovskiy.github.io/static/js/2.f041dbd1.chunk.js.LICENSE.txt",
+    "static/media/about.656dcb96.jpg": "/vilgovskiy.github.io/static/media/about.656dcb96.jpg",
+    "static/media/index.css": "/vilgovskiy.github.io/static/media/bg.7b54e238.jpg",
+    "static/media/square.67ee1c40.jpg": "/vilgovskiy.github.io/static/media/square.67ee1c40.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.84be9532.js",
+    "static/js/runtime-main.807ff922.js",
     "static/js/2.f041dbd1.chunk.js",
-    "static/css/main.cc701f2e.chunk.css",
+    "static/css/main.13e33d87.chunk.css",
     "static/js/main.929b27ec.chunk.js"
   ]
 }
