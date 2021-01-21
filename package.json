@@ -1,6 +1,6 @@
 {
-  "homepage": "http://vilgovskiy.github.io/portfolio",
-  "name": "portfolio",
+  "homepage": "http://vilgovskiy.github.io",
+  "name": "vilgovskiy.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +11,6 @@
     "react-dom": "^17.0.1",
     "react-icons": "^4.1.0",
     "react-reveal": "^1.2.2",
-    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
