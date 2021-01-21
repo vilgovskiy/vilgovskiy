@@ -4,27 +4,32 @@
 }
 
 .StackSection p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .StackSection ul {
-    display: block;
-    border-left-width: 5px;
-    border-left-style: solid;
-    border-left-color: rgb(0, 255, 255);
-    padding-left: 10px;
+  display: block;
+  border-left-width: 5px;
+  border-left-style: solid;
+  border-image: radial-gradient(
+      rgba(0, 225, 225, 0.7) 80%,
+      rgba(0, 225, 225, 0)
+    )
+    1;
+  border-left-color: rgb(0, 255, 255);
+  padding-left: 10px;
 }
 
 .StackSection li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-    width: fit-content;
-    font-size: 20px;
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: fit-content;
+  font-size: 20px;
 }
 
 .StackSection svg {
-    margin-right: 5px;
+  margin-right: 5px;
 }
