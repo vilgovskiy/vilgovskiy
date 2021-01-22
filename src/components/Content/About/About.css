@@ -22,3 +22,33 @@
     float: right;
     vertical-align: top;
 }
+
+
+#Socials {
+    line-height: 15px;
+}
+
+#Socials a {
+    margin-right: 30px;
+    display: inline-block;
+    width: 36px;
+    text-align: center;
+    border-radius: 20%;
+    padding:3px;
+    transition: color 0.3s ease-out;
+}
+
+#VK:hover {
+    color: #4e7db2;
+}
+
+#Facebook:hover {
+    color: #4867aa;
+}
+
+#Insta:hover {
+    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip:initial;
+    color: white;
+}
+

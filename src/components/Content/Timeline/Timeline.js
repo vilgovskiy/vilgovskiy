@@ -17,7 +17,7 @@ const Timeline = () => {
         </div>
         <div className="Timeline-item" date-is="9/2014-5/2019">
           <h1>Electrical & Computer Engineering Student @ University of Toronto</h1>
-          <p>Electrical and Computer Engineering student, specializing in Software engineering and Control systems. Wa part of residence council as VP Academics. Played on Tri-Campus competitive Volleyball team.</p>
+          <p>Electrical and Computer Engineering student, specializing in Software engineering and Control systems. Was part of residence council as VP Academics. Played on Tri-Campus competitive Volleyball team.</p>
         </div>
       </div>
     </section>
