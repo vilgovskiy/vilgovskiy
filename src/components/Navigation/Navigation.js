@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from "react";
 import NavigationItem from "./NavifationItem/NavigationItem";
 import "./Navigation.css";
 
-const contentItems = { introduction: null, about: null, techstack: null, timeline: null };
+const contentItems = { introduction: null, about: null, techstack: null, timeline: null, projects: null };
 
 const Navigation = (props) => {
   const [activeItem, setActiveItem] = useState("TOP");
@@ -75,6 +75,14 @@ const Navigation = (props) => {
         position={contentItems['timeline']}
       >
         Timeline
+      </NavigationItem>
+      <NavigationItem
+        name="projects"
+        onClick={props.onClick}
+        activeElem={activeItem}
+        position={contentItems['projects']}
+      >
+        Projects
       </NavigationItem>
     </nav>
   );

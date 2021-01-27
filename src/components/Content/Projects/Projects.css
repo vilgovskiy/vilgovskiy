@@ -1,0 +1,48 @@
+.Projects {
+    text-align: left;
+}
+
+.ProjectTitle {
+    font-size: 2vw;
+}
+
+.ProjectDescription {
+    text-align: left;
+    border-left: 2px solid #343a40;
+    padding-left: 10px;
+}
+.ProjectDescription:last-child {
+    border-image: linear-gradient(
+        to bottom,
+        rgba(52, 58, 64, 0.7) 60%,
+        rgba(52, 58, 64, 0)
+      )
+      1 100%;
+  }
+
+.UsedTech>svg {
+    margin-right: 10px;
+    transition: color 0.3s ease-out;
+}
+.UsedTech>svg:hover {
+    color: turquoise;
+}
+
+.LinkButton {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #343a40;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: #343a40;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.LinkButton:hover {
+  color: whitesmoke;
+  background-color: #343a40;
+}

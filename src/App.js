@@ -6,6 +6,7 @@ import Introduction from "./components/Introduction/Introduction";
 import Content from "./components/Content/Content";
 import TechStack from "./components/Content/TechStack/TechStack";
 import Timeline from "./components/Content/Timeline/Timeline";
+import Projects from "./components/Content/Projects/Projects";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           </FadeInWrapper>
           <FadeInWrapper>
             <Timeline/>
+          </FadeInWrapper>
+          <FadeInWrapper>
+            <Projects/>
           </FadeInWrapper>
         </Content>
       </Layout>
