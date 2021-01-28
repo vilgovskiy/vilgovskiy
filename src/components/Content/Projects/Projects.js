@@ -99,7 +99,7 @@ const Projects = (props) => {
       </div>
       <div className="Project">
         <h3 className="ProjectTitle">
-          Densify resource provider for AWS CloudFormation
+          Borowly - Platform for lending and borrowing items.
         </h3>
         <div className="ProjectDescription">
           <div className="UsedTech">
