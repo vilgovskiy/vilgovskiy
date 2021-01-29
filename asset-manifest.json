@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vilgovskiy/static/css/main.c460e564.chunk.css",
+    "main.css": "/vilgovskiy/static/css/main.0bac1a65.chunk.css",
     "main.js": "/vilgovskiy/static/js/main.5b884e85.chunk.js",
     "main.js.map": "/vilgovskiy/static/js/main.5b884e85.chunk.js.map",
     "runtime-main.js": "/vilgovskiy/static/js/runtime-main.546aea53.js",
@@ -10,7 +10,7 @@
     "static/js/3.81986f9a.chunk.js": "/vilgovskiy/static/js/3.81986f9a.chunk.js",
     "static/js/3.81986f9a.chunk.js.map": "/vilgovskiy/static/js/3.81986f9a.chunk.js.map",
     "index.html": "/vilgovskiy/index.html",
-    "static/css/main.c460e564.chunk.css.map": "/vilgovskiy/static/css/main.c460e564.chunk.css.map",
+    "static/css/main.0bac1a65.chunk.css.map": "/vilgovskiy/static/css/main.0bac1a65.chunk.css.map",
     "static/js/2.2e86c6ae.chunk.js.LICENSE.txt": "/vilgovskiy/static/js/2.2e86c6ae.chunk.js.LICENSE.txt",
     "static/media/about.656dcb96.jpg": "/vilgovskiy/static/media/about.656dcb96.jpg",
     "static/media/index.css": "/vilgovskiy/static/media/bg.7b54e238.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.546aea53.js",
     "static/js/2.2e86c6ae.chunk.js",
-    "static/css/main.c460e564.chunk.css",
+    "static/css/main.0bac1a65.chunk.css",
     "static/js/main.5b884e85.chunk.js"
   ]
 }
