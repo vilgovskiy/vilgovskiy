@@ -99,7 +99,7 @@ const Projects = (props) => {
       </div>
       <div className="Project">
         <h3 className="ProjectTitle">
-          Borowly - Platform for lending and borrowing items.
+          Borowly - Platform for borrowing and lending items
         </h3>
         <div className="ProjectDescription">
           <div className="UsedTech">
